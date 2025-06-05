@@ -54,7 +54,12 @@ body {
   color: var(--text-color);
   transition: 3s;
 }
-
+.blue{
+  color: blue;
+}
+.blue:hover{
+  color: rgb(255, 0, 0);
+}
 h1,
 h2,
 h3 {
@@ -306,8 +311,11 @@ nav {
 }
 
 .home__description {
-  color: var(--text-color-light);
+  color: rgb(40, 40, 167);
   margin-bottom: 2rem;
+}
+.home__description:hover{
+  color: red;
 }
 
 .home__search {
@@ -483,6 +491,10 @@ nav {
   content: '';
 }
 
+button:hover{
+  background: red;
+  color: #000;
+}
 .swiper-button-next,
 .swiper-button-prev {
   top: initial;
@@ -515,7 +527,8 @@ nav {
   justify-content: center;
 }
 .button{
-  background: #00aeff;
+  background: #2200ff;
+
 }
 .value__orbe {
   width: 266px;
